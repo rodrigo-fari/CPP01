@@ -6,7 +6,13 @@
 /*   By: rde-fari <rde-fari@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/25 14:47:20 by rde-fari          #+#    #+#             */
-/*   Updated: 2025/06/25 14:47:21 by rde-fari         ###   ########.fr       */
+/*   Updated: 2025/06/25 17:14:44 by rde-fari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "Weapon.hpp"
+
+Weapon::Weapon(std::string type) {
+	this->type = type;
+}
 

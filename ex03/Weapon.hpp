@@ -6,7 +6,7 @@
 /*   By: rde-fari <rde-fari@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/25 14:47:17 by rde-fari          #+#    #+#             */
-/*   Updated: 2025/06/25 14:52:36 by rde-fari         ###   ########.fr       */
+/*   Updated: 2025/06/25 16:52:04 by rde-fari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,16 +16,14 @@
 # include <string>
 # include <iostream>
 
-// class //smt
-// {
-// 	private:
-// 		//smt
+class Weapon {
+	private:
+		std::string type;
 
-// 	public:
-// 		//smt
-// 		//smt
-// };
-
-// //fncts
+	public:
+		Weapon(std::string type);
+		const	std::string& getType() const;
+		void	setType(const std::string& type);
+};
 
 #endif

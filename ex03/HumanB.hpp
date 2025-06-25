@@ -6,7 +6,7 @@
 /*   By: rde-fari <rde-fari@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/25 14:47:08 by rde-fari          #+#    #+#             */
-/*   Updated: 2025/06/25 14:52:31 by rde-fari         ###   ########.fr       */
+/*   Updated: 2025/06/25 16:49:15 by rde-fari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,17 @@
 
 # include <string>
 # include <iostream>
+# include "Weapon.hpp"
 
-// class //smt
-// {
-// 	private:
-// 		//smt
+class HumanB {
+	private:
+		std::string name;
+		Weapon*	weapon;
 
-// 	public:
-// 		//smt
-// 		//smt
-// };
-
-// //fncts
+	public:
+		HumanB(std::string name);
+		void	attack() const;
+		void	setWeapon(Weapon& weapon);
+};
 
 #endif

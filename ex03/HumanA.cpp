@@ -6,7 +6,10 @@
 /*   By: rde-fari <rde-fari@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/25 14:47:11 by rde-fari          #+#    #+#             */
-/*   Updated: 2025/06/25 14:47:12 by rde-fari         ###   ########.fr       */
+/*   Updated: 2025/06/25 16:49:30 by rde-fari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "Weapon.hpp"
+#include "HumanA.hpp"
 
