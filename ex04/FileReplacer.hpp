@@ -6,7 +6,7 @@
 /*   By: rde-fari <rde-fari@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/28 19:21:35 by rde-fari          #+#    #+#             */
-/*   Updated: 2025/06/28 19:37:19 by rde-fari         ###   ########.fr       */
+/*   Updated: 2025/06/30 16:56:45 by rde-fari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <iostream>
 # include <fstream>
 # include <string>
+# include "Colors.hpp"
 
 class FileReplacer {
 private:
