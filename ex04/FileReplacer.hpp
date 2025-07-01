@@ -6,7 +6,7 @@
 /*   By: rde-fari <rde-fari@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/28 19:21:35 by rde-fari          #+#    #+#             */
-/*   Updated: 2025/06/30 16:56:45 by rde-fari         ###   ########.fr       */
+/*   Updated: 2025/07/01 15:40:41 by rde-fari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,9 @@
 # include <fstream>
 # include <string>
 # include "Colors.hpp"
+
+# define SUCCESS 0
+# define ERRO 1
 
 class FileReplacer {
 private:
@@ -34,6 +37,7 @@ public:
 	const std::string& getS2() const { return _s2; }
 };
 
-//aux functions declaration
+bool	validateArguments(int ac, char **av);
+bool	validateArgumentsContent(const std::string& str);
 
 #endif
