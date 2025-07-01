@@ -6,7 +6,7 @@
 /*   By: rde-fari <rde-fari@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/28 19:21:35 by rde-fari          #+#    #+#             */
-/*   Updated: 2025/07/01 15:40:41 by rde-fari         ###   ########.fr       */
+/*   Updated: 2025/07/01 18:55:46 by rde-fari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,5 +39,7 @@ public:
 
 bool	validateArguments(int ac, char **av);
 bool	validateArgumentsContent(const std::string& str);
+void	setInfo(FileReplacer& instance, char **av);
+bool	searchAndReplace(FileReplacer& instance);
 
 #endif
